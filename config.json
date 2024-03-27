@@ -2,5 +2,8 @@
     "title":"海涛小课堂",
     "subTitle":"你无法预先把点点滴滴串连起来；只有在未来回顾时，你才会明白那些点点滴滴是如何串在一起的。",
     "avatarUrl":"https://raw.githubusercontent.com/taoshushuo/blog/317158d3b47ca3db9a08ef7f2118ba931c9c9e20/%E6%89%8B%E7%BB%98%E5%8D%A1%E9%80%9A%E5%BD%A2%E8%B1%A1.png",
+    "singlePage":["about"],
+    "iconList":{"circle":"M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Z"},
+    "onePageListNum":15,
     "GMEEK_VERSION":"last"
 }

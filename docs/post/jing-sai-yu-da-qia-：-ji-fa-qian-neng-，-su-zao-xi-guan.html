@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://raw.githubusercontent.com/taoshushuo/blog/317158d3b47ca3db9a08ef7f2118ba931c9c9e20/%E6%89%8B%E7%BB%98%E5%8D%A1%E9%80%9A%E5%BD%A2%E8%B1%A1.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -84,8 +84,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>从福格模型来解释这件事情，好像也是合理的。我们每个人都像守着一扇由内而外打开的大门，在打开这扇门的过程中，除了内在动机/个人能力之外，外部触发器的加持也同样甚至更重要。无论是学习外语、锻炼身体还是任何其他的目标追求，竞赛和打卡都给了我们一个明确的方向和衡量标准，同时通过这种外部触发器的不断提醒，让我们能够持续的坚持下去。</p>
 <p>随着时间的推移，这种无意义的坚持会让我们的生活更有目的，也更加充实。通过这样的过程，我们不仅提升了自己，也更好地理解了坚持与努力的真正价值，提升信心，同时过程中会伴随着能力的提升，激发更强烈的兴趣，从而让动机变得更加的真实稳固。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://taoshushuo.github.io/blog"> 海涛小课堂 </a>
 <p>
@@ -140,6 +142,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

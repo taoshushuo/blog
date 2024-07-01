@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://raw.githubusercontent.com/taoshushuo/blog/317158d3b47ca3db9a08ef7f2118ba931c9c9e20/%E6%89%8B%E7%BB%98%E5%8D%A1%E9%80%9A%E5%BD%A2%E8%B1%A1.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -79,8 +79,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>生活是一场漫长的旅行，我们都是旅途中的行者。我们无法预知未来，但我们可以为自己的生活赋予意义。无论是追求事业的成功，还是寻求精神的升华，都是我们生命中不可或缺的部分。在这个旅行中，我们需要目标来引导我们的方向，需要学习来充实我们的内心，需要成长来坚定我们的意志。</p>
 <p>最终，我们都将在这光影交错的人生中找到属于自己的底色。或许它不是最鲜艳的，但它一定是最真实的。在这个底色之上，我们可以绘制出属于自己的精彩，创造出属于自己的奇迹。这就是生活，这就是我们每个人的生命之旅。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://taoshushuo.github.io/blog"> 海涛小课堂 </a>
 <p>
@@ -135,6 +137,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

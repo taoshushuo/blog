@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://raw.githubusercontent.com/taoshushuo/blog/317158d3b47ca3db9a08ef7f2118ba931c9c9e20/%E6%89%8B%E7%BB%98%E5%8D%A1%E9%80%9A%E5%BD%A2%E8%B1%A1.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -84,8 +84,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>我相信，无论是辅导孩子还是培训成人，真正的教育都应该是心灵与心灵的交流。通过放下成见，换位思考，我们能够更好地理解学员的需求，用适合他们的方式去传递知识，帮助他们克服学习中的困难，激发他们内在的潜能。这是我作为一个中年老父亲和培训师的深刻体会，也是我在教育路上不断追求的目标。</p>
 <p>教育不仅是知识的传递，更是心灵的交流。作为家长或教师，我们应该学会放下成人的成见，用孩子的眼睛去看世界，用孩子的耳朵去听声音，用孩子的心去感受生活。这样，我们的教育才能真正触及孩子的心灵，激发他们的潜能，引领他们走向更加美好的未来。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://taoshushuo.github.io/blog"> 海涛小课堂 </a>
 <p>
@@ -140,6 +142,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

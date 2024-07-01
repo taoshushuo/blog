@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://raw.githubusercontent.com/taoshushuo/blog/317158d3b47ca3db9a08ef7f2118ba931c9c9e20/%E6%89%8B%E7%BB%98%E5%8D%A1%E9%80%9A%E5%BD%A2%E8%B1%A1.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -79,8 +79,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>此外，我们还需要学会与AI技术合作，将其作为我们的助手和伙伴。通过与AI的协作，我们可以更好地发挥自己的优势，同时弥补自己在某些方面的不足。这将使我们在AI时代更加游刃有余，能够更好地应对各种挑战。</p>
 <p>总之，在AI时代，我们需要转变观念，积极拥抱变化。通过不断地自我学习和提升，我们可以充分利用AI技术带来的机遇，实现自我赋能和成长。让我们一起迎接这个充满无限可能的新时代，共同创造更加美好的未来。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://taoshushuo.github.io/blog"> 海涛小课堂 </a>
 <p>
@@ -135,6 +137,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

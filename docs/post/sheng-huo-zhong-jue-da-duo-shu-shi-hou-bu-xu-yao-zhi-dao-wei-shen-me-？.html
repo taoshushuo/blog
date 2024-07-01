@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://raw.githubusercontent.com/taoshushuo/blog/317158d3b47ca3db9a08ef7f2118ba931c9c9e20/%E6%89%8B%E7%BB%98%E5%8D%A1%E9%80%9A%E5%BD%A2%E8%B1%A1.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -82,8 +82,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>但是，对于一些高价值且高频率的事情，我们可能需要深究其背后的原因。例如，如何保障良好的睡眠、如何保障身体健康以及如何保障更系统的思考等。这些问题对于我们的生活质量有着至关重要的影响，因此我们需要投入更多的精力和时间来深入了解它们。</p>
 <p>总之，生活中绝大多数问题是不需要知道为什么的。我们需要关注的是如何解决问题，而不是问题背后的原因。这样，我们才能更高效地应对生活中的各种挑战，让生活变得更加美好。但是，对于一些高价值且高频率的事情，我们可能需要深究其背后的原因，以便更好地保障我们的生活品质。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://taoshushuo.github.io/blog"> 海涛小课堂 </a>
 <p>
@@ -138,6 +140,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
